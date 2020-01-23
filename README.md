@@ -48,4 +48,8 @@ This section allows a user to both view and filter customer reviews and a variet
 ## Getting Started
 
 ## Contributors
+<<<<<<< HEAD
 [Collin Snyder](https://github.com/Collin-Snyder)
+=======
+[Collin Snyder](https://github.com/Collin-Snyder)
+>>>>>>> upmaster
