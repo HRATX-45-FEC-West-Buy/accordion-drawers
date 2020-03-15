@@ -10,22 +10,22 @@ router.get("/:id", async (req, res) => {
   const { id } = req.params;
   const key_specs = await db.query({
     text:
-      "SELECT id AS spec_id, spec_name, spec_value, has_more_info, more_info_text FROM specs WHERE product_id = $1 AND spec_category = 'Key Specs'",
+      "SELECT id AS spec_id, spec_name, spec_value, has_more_info, more_info_text FROM specifications WHERE product_id = $1 AND spec_category = 'Key Specs'",
     values: [id]
   });
   const general = await db.query({
     text:
-      "SELECT id AS spec_id, spec_name, spec_value, has_more_info, more_info_text FROM specs WHERE product_id = $1 AND spec_category = 'General'",
+      "SELECT id AS spec_id, spec_name, spec_value, has_more_info, more_info_text FROM specifications WHERE product_id = $1 AND spec_category = 'General'",
     values: [id]
   });
   const warranty = await db.query({
     text:
-      "SELECT id AS spec_id, spec_name, spec_value, has_more_info, more_info_text FROM specs WHERE product_id = $1 AND spec_category = 'Warranty'",
+      "SELECT id AS spec_id, spec_name, spec_value, has_more_info, more_info_text FROM specifications WHERE product_id = $1 AND spec_category = 'Warranty'",
     values: [id]
   });
   const other = await db.query({
     text:
-      "SELECT id AS spec_id, spec_name, spec_value, has_more_info, more_info_text FROM specs WHERE product_id = $1 AND spec_category = 'Other'",
+      "SELECT id AS spec_id, spec_name, spec_value, has_more_info, more_info_text FROM specifications WHERE product_id = $1 AND spec_category = 'Other'",
     values: [id]
   });
 
