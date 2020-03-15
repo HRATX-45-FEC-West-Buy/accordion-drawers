@@ -4,22 +4,17 @@ A collapsible drawer microservice of a Western-themed BestBuy.com clone providin
 ## Accordion Drawers Microservice
 The Accordion Drawers provide potential West Buy customers with three main sections of product information (listed below). All sections were created using vanilla React, and styling was accomplished with raw CSS and minimal use of React Bootstrap components.
 
-### Product Overview
-This section allows a user to see product-specific overview information in a variety of categories.
+### Product Overview and Specifications
+These sections allow a user to see product-specific information in a variety of categories as well as interact with "More Info" modals containing clarifying info for certain specs.
 
-[product overview gif]
-
-### Specifications
-This section allows a user to see product-specific specifications, including interactive "More Info" modals containing clarifying info for certain specs.
-
-[specifications gif]
+<img src="./overview-specs.gif" width="900px"/>
 
 ### Ratings/Reviews
 This section allows a user to both view and filter customer reviews and a variety of rating/recommendation data for a given product.
 
-[reviews gif]
-
-## Full West Buy Application
+<img src="./reviews.gif" width="500px"/><br>
+<img src="./VP-filter.gif" width="500px"/><br>
+<img src="./rating-filter.gif" width="500px"/>
 
 ## Stack
 
@@ -45,11 +40,5 @@ This section allows a user to both view and filter customer reviews and a variet
   </tr>
 </table>
 
-## Getting Started
-
 ## Contributors
-<<<<<<< HEAD
 [Collin Snyder](https://github.com/Collin-Snyder)
-=======
-[Collin Snyder](https://github.com/Collin-Snyder)
->>>>>>> upmaster
