@@ -7,14 +7,14 @@ The Accordion Drawers provide potential West Buy customers with three main secti
 ### Product Overview and Specifications
 These sections allow a user to see product-specific information in a variety of categories as well as interact with "More Info" modals containing clarifying info for certain specs.
 
-<img src="./overview-specs.gif" width="900px"/>
+<img src="./overview-specs.gif" width="700px"/>
 
 ### Ratings/Reviews
 This section allows a user to both view and filter customer reviews and a variety of rating/recommendation data for a given product.
 
-<img src="./reviews.gif" width="500px"/><br>
-<img src="./VP-filter.gif" width="500px"/><br>
-<img src="./rating-filter.gif" width="500px"/>
+<img src="./reviews.gif" width="700px"/><br>
+<img src="./VP-filter.gif" width="700px"/><br>
+<img src="./rating-filter.gif" width="700px"/>
 
 ## Stack
 
