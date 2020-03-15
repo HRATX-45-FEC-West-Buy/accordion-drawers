@@ -27,7 +27,7 @@ export default class Specs extends React.Component {
   componentDidMount() {
     axios
       .get(
-        `http://west-buy-drawers.us-east-2.elasticbeanstalk.com/specs/${this.props.productId}`
+        `/specs/${this.props.productId}`
       )
       .then(data => {
         this.setState({ specData: data.data });
@@ -38,7 +38,7 @@ export default class Specs extends React.Component {
     if (prevProps.productId != this.props.productId) {
       axios
         .get(
-          `http://west-buy-drawers.us-east-2.elasticbeanstalk.com/specs/${this.props.productId}`
+          `/specs/${this.props.productId}`
         )
         .then(data => {
           this.setState({ specData: data.data });

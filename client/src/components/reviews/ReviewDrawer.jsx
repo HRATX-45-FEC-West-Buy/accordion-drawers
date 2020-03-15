@@ -60,7 +60,7 @@ export default class ReviewDrawer extends React.Component {
     //query for review data here
     axios
       .get(
-        `http://west-buy-drawers.us-east-2.elasticbeanstalk.com/reviews/${this.props.productId}`
+        `/reviews/${this.props.productId}`
       )
       .then(data => {
         if (data.data.count && data.data.count > 0) {
@@ -79,7 +79,7 @@ export default class ReviewDrawer extends React.Component {
     if (prevProps.productId != this.props.productId) {
       axios
         .get(
-          `http://west-buy-drawers.us-east-2.elasticbeanstalk.com/reviews/${this.props.productId}`
+          `/reviews/${this.props.productId}`
         )
         .then(data => {
           if (data.data.count && data.data.count > 0) {

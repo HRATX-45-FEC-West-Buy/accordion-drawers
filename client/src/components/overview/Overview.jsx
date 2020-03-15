@@ -27,7 +27,7 @@ export default class Overview extends React.Component {
   componentDidMount() {
     axios
       .get(
-        `http://west-buy-drawers.us-east-2.elasticbeanstalk.com/overview/${this.props.productId}`
+        `/overview/${this.props.productId}`
       )
       .then(data => {
         this.setState({ overviewData: data.data });
@@ -38,7 +38,7 @@ export default class Overview extends React.Component {
     if (prevProps.productId != this.props.productId) {
       axios
         .get(
-          `http://west-buy-drawers.us-east-2.elasticbeanstalk.com/overview/${this.props.productId}`
+          `/overview/${this.props.productId}`
         )
         .then(data => {
           this.setState({ overviewData: data.data });
